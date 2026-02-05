@@ -76,8 +76,18 @@ Votre mission (si vous l'acceptez) : Créez une **image applicative customisée 
 Séquence 4 : Documentation  
 Difficulté : Facile (~30 minutes)
 ---------------------------------------------------
-**Complétez et documentez ce fichier README.md** pour nous expliquer comment utiliser votre solution.  
-Faites preuve de pédagogie et soyez clair dans vos expliquations et processus de travail.  
+Dans cette dernière séquence, je documente l’ensemble du travail réalisé durant ce TP afin d’expliquer la démarche technique, les choix effectués et le fonctionnement global de la solution mise en place.
+
+Tout au long de cet atelier, j’ai suivi une approche progressive et structurée visant à industrialiser le déploiement d’une application web simple, depuis la création de l’image applicative jusqu’à son exécution sur un cluster Kubernetes.
+
+Plus précisément, ce travail m’a permis de :
+Mettre en place un environnement de travail reproductible grâce à GitHub Codespaces, évitant toute dépendance à une machine locale.
+Créer et configurer un cluster Kubernetes léger (K3d) afin de disposer d’une plateforme d’exécution proche d’un environnement réel.
+Construire une image Docker personnalisée basée sur Nginx à l’aide de Packer, en intégrant un fichier index.html applicatif maîtrisé.
+Importer cette image dans le cluster K3d pour garantir une exécution locale sans dépendance à un registre externe.
+Déployer automatiquement l’application sur Kubernetes à l’aide d’Ansible, en définissant de manière déclarative les ressources (Deployment et Service).
+Vérifier le bon fonctionnement de l’application via l’ouverture de ports et l’accès à l’interface web depuis le navigateur.
+
    
 ---------------------------------------------------
 Evaluation
