@@ -76,6 +76,7 @@ Votre mission (si vous l'acceptez) : Créez une **image applicative customisée 
 Séquence 4 : Documentation  
 Difficulté : Facile (~30 minutes)
 ---------------------------------------------------
+Abdallah : 
 Dans cette dernière séquence, je documente l’ensemble du travail réalisé durant ce TP afin d’expliquer la démarche technique, les choix effectués et le fonctionnement global de la solution mise en place.
 
 Tout au long de cet atelier, j’ai suivi une approche progressive et structurée visant à industrialiser le déploiement d’une application web simple, depuis la création de l’image applicative jusqu’à son exécution sur un cluster Kubernetes.
